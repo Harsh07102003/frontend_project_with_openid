@@ -18,7 +18,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::<ACCOUNT_ID>:role/demo-github-oidc-role
+          role-to-assume: arn:aws:iam::021891604215:role/test-github-oidc-role
           aws-region: ap-south-1
 
       - name: Deploy to EC2
